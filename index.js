@@ -21,7 +21,7 @@ const connectMongo = require('connect-mongo');
 const app = new express();
 
 mongoose.connect('mongodb://localhost:27017/node-blog', { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true,})
-    .then(() => 'You are now connected to Mongo!')
+    .then(() => 'You are now connected to MongoDB!')
     .catch(err => console.error('Something went wrong', err))
  
 app.use(connectFlash()); 
