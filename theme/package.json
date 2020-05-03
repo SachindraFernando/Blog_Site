@@ -40,7 +40,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.10.2",
     "bootstrap": "4.3.1",
-    "jquery": "3.4.1"
+    "jquery": "3.5.0"
   },
   "deprecated": false,
   "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
